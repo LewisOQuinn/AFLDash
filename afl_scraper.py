@@ -47,6 +47,7 @@ for custom_team, teams in custom_ladder_dict.items():
 
 # Initialize the app
 app = dash.Dash(__name__)
+server = app.server
 
 # Set the app layout
 app.layout = html.Div(children=[
